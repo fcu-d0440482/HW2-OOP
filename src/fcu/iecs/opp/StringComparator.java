@@ -1,3 +1,4 @@
+package fcu.iecs.opp;
 
 import java.util.Scanner;
 
@@ -9,13 +10,17 @@ public class StringComparator {
 		str1 = sc.nextLine();
 		System.out.println("請輸入字串2");
 		str2 = sc.nextLine();
-		if (str1.equalsIgnoreCase(str2)) {
+		if (str1.equalsIgnoreCase(str2)) 
+		{
 			System.out.println("一樣");
-		} else {
+		} 
+		else 
+		{
 			System.out.println("不一樣");
 		}
 
 		sc.close();
+
 	}
 
 }

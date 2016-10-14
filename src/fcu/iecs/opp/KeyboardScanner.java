@@ -1,4 +1,4 @@
-
+package fcu.iecs.opp;
 import java.util.Scanner;
 public class KeyboardScanner {
 	public static void main(String[] args)
