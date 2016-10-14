@@ -1,0 +1,24 @@
+
+import java.util.Scanner;
+public class StringComparator {
+	public static void main(String[] args)
+	{
+		String str1 , str2;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("請輸入字串1");
+		str1 = sc.nextLine();
+		System.out.println("請輸入字串2");
+		str2 = sc.nextLine();
+		while(!str1.equalsIgnoreCase(str2))
+		{
+			System.out.println("不一樣請重新輸入字串2");
+			str2 = sc.nextLine();
+		}
+		System.out.println("一樣");
+		sc.close();	
+		
+		
+	}
+	
+
+}
